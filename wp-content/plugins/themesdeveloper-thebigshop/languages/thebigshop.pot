@@ -1,0 +1,2660 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: marketshop_plugins\n"
+"POT-Creation-Date: 2017-10-13 13:47+0600\n"
+"PO-Revision-Date: 2016-06-04 20:56+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: extensions/wbc_importer/extension_wbc_importer.php:236
+msgid "Demo Already Imported"
+msgstr ""
+
+#: extensions/wbc_importer/extension_wbc_importer.php:262
+#: extensions/wbc_importer/extension_wbc_importer.php:264
+#: themesdeveloper-thebigshop.php:172
+msgid "Demo Importer"
+msgstr ""
+
+#: extensions/wbc_importer/extension_wbc_importer.php:269
+msgid "Works best to import on a new install of WordPress"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/parsers.php:42
+#: extensions/wbc_importer/inc/importer/parsers.php:72
+#: extensions/wbc_importer/inc/importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/parsers.php:84
+#: extensions/wbc_importer/inc/importer/parsers.php:89
+#: extensions/wbc_importer/inc/importer/parsers.php:279
+#: extensions/wbc_importer/inc/importer/parsers.php:468
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/radium-importer.php:256
+msgid "Theme options Import file could not be found. Please try again."
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/radium-importer.php:331
+msgid "Widget Import file could not be found. Please try again."
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/radium-importer.php:405
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/radium-importer.php:427
+msgid "Site does not support widget"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/radium-importer.php:450
+msgid "Widget already exists"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/radium-importer.php:499
+#: extensions/wbc_importer/wbc_importer/field_wbc_importer.php:116
+msgid "Imported"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/radium-importer.php:502
+msgid "Imported to Inactive"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/radium-importer.php:509
+msgid "No Title"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:134
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:143
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:194
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:198
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:465
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:511
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:652
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:537
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:559
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:618
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:783
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:790
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:853
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:866
+msgid "Invalid file type"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:910
+msgid "Remote server did not respond"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:916
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:923
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:928
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:934
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:1032
+msgid "Import WordPress"
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:1039
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:1054
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: extensions/wbc_importer/inc/importer/wordpress-importer.php:1055
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: extensions/wbc_importer/wbc_importer/field_wbc_importer.php:93
+#: extensions/wbc_importer/wbc_importer/field_wbc_importer.php:114
+msgid "Import Demo"
+msgstr ""
+
+#: extensions/wbc_importer/wbc_importer/field_wbc_importer.php:97
+msgid "Demo Imported"
+msgstr ""
+
+#: extensions/wbc_importer/wbc_importer/field_wbc_importer.php:114
+#: extensions/wbc_importer/wbc_importer/field_wbc_importer.php:117
+msgid "Please Wait..."
+msgstr ""
+
+#: extensions/wbc_importer/wbc_importer/field_wbc_importer.php:118
+msgid "Re-Import"
+msgstr ""
+
+#: extensions/wbc_importer/wbc_importer/field_wbc_importer.php:127
+msgid "No Demo Data Provided"
+msgstr ""
+
+#: inc/td_functions.php:18
+msgid "Facebook"
+msgstr ""
+
+#: inc/td_functions.php:19
+msgid "Twitter"
+msgstr ""
+
+#: inc/td_functions.php:20
+msgid "Google +"
+msgstr ""
+
+#: inc/td_functions.php:21
+msgid "Linkedit"
+msgstr ""
+
+#: inc/td_functions.php:22 tdcodes/themesdeveloper-config.php:1173
+msgid "Pinterest"
+msgstr ""
+
+#: inc/td_functions.php:23 tdcodes/themesdeveloper-config.php:1341
+msgid "Tumblr"
+msgstr ""
+
+#: inc/td_functions.php:24 tdcodes/themesdeveloper-config.php:1313
+msgid "Reddit"
+msgstr ""
+
+#: inc/td_functions.php:25 tdcodes/themesdeveloper-config.php:1306
+msgid "Digg"
+msgstr ""
+
+#: inc/td_functions.php:26
+msgid "StumbleUpon"
+msgstr ""
+
+#: inc/td_functions.php:27 tdcodes/themesdeveloper-config.php:386
+msgid "Email"
+msgstr ""
+
+#: inc/td_functions.php:46
+msgid "Tweets by"
+msgstr ""
+
+#: inc/td_metabox.php:11
+msgid "Search Category"
+msgstr ""
+
+#: inc/td_metabox.php:12
+msgid "All Category"
+msgstr ""
+
+#: inc/td_metabox.php:13
+msgid "Parent Category"
+msgstr ""
+
+#: inc/td_metabox.php:14
+msgid "Parent Category:"
+msgstr ""
+
+#: inc/td_metabox.php:15
+msgid "Edit Category"
+msgstr ""
+
+#: inc/td_metabox.php:16
+msgid "Update Category"
+msgstr ""
+
+#: inc/td_metabox.php:17
+msgid "Add New Category"
+msgstr ""
+
+#: inc/td_metabox.php:18
+msgid "New Category Name"
+msgstr ""
+
+#: inc/td_metabox.php:19
+msgid "Categories"
+msgstr ""
+
+#: inc/td_metabox.php:39
+msgid "Search tag"
+msgstr ""
+
+#: inc/td_metabox.php:40
+msgid "All tag"
+msgstr ""
+
+#: inc/td_metabox.php:41
+msgid "Parent tag"
+msgstr ""
+
+#: inc/td_metabox.php:42
+msgid "Parent tag:"
+msgstr ""
+
+#: inc/td_metabox.php:43
+msgid "Edit tag"
+msgstr ""
+
+#: inc/td_metabox.php:44
+msgid "Update tag"
+msgstr ""
+
+#: inc/td_metabox.php:45
+msgid "Add Portfolio tag"
+msgstr ""
+
+#: inc/td_metabox.php:46
+msgid "New tag Name"
+msgstr ""
+
+#: inc/td_metabox.php:47
+msgid "Tag"
+msgstr ""
+
+#: inc/td_metabox.php:83
+msgid "Slider Link Here"
+msgstr ""
+
+#: inc/td_metabox.php:110
+msgid "Add Portfolio Link Here"
+msgstr ""
+
+#: inc/td_metabox.php:137
+msgid "Page Layout"
+msgstr ""
+
+#: inc/td_metabox.php:139
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/td_metabox.php:140
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/td_metabox.php:141
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/td_metabox.php:147
+msgid "Hide Page Title"
+msgstr ""
+
+#: inc/td_metabox.php:151
+msgid "Hide Page Breadcrumb"
+msgstr ""
+
+#: inc/td_metabox.php:155
+msgid "Hide Page Top and Bottom Margin"
+msgstr ""
+
+#: inc/td_ptype.php:14
+msgid "Add New Slider"
+msgstr ""
+
+#: inc/td_ptype.php:15
+msgid "New Slider"
+msgstr ""
+
+#: inc/td_ptype.php:16
+msgid "Edit Slider"
+msgstr ""
+
+#: inc/td_ptype.php:17
+msgid "View Slider"
+msgstr ""
+
+#: inc/td_ptype.php:18
+msgid "All Slider"
+msgstr ""
+
+#: inc/td_ptype.php:19
+msgid "Search Slider"
+msgstr ""
+
+#: inc/td_ptype.php:20
+msgid "Parent Slider:"
+msgstr ""
+
+#: inc/td_ptype.php:21
+msgid "No Slider found."
+msgstr ""
+
+#: inc/td_ptype.php:22
+msgid "No Slider found in Trash."
+msgstr ""
+
+#: inc/td_ptype.php:53
+msgid "Add New Portfolio"
+msgstr ""
+
+#: inc/td_ptype.php:54
+msgid "New Portfolio"
+msgstr ""
+
+#: inc/td_ptype.php:55
+msgid "Edit Portfolio"
+msgstr ""
+
+#: inc/td_ptype.php:56
+msgid "View Portfolio"
+msgstr ""
+
+#: inc/td_ptype.php:57
+msgid "All Portfolio"
+msgstr ""
+
+#: inc/td_ptype.php:58
+msgid "Search Portfolio"
+msgstr ""
+
+#: inc/td_ptype.php:59
+msgid "Parent Portfolio:"
+msgstr ""
+
+#: inc/td_ptype.php:60
+msgid "No Portfolio found."
+msgstr ""
+
+#: inc/td_ptype.php:61
+msgid "No Portfolio found in Trash."
+msgstr ""
+
+#: inc/td_scodes.php:6 inc/td_slist.php:67
+msgid "Top Categories"
+msgstr ""
+
+#: inc/td_scodes.php:165
+msgid "view all"
+msgstr ""
+
+#: inc/td_scodes.php:236 inc/td_slist.php:172
+msgid "Best Selling"
+msgstr ""
+
+#: inc/td_scodes.php:308 inc/td_slist.php:206
+msgid "Recent Products"
+msgstr ""
+
+#: inc/td_scodes.php:380 inc/td_slist.php:240
+msgid "Featured Products"
+msgstr ""
+
+#: inc/td_scodes.php:453 inc/td_slist.php:288
+msgid "Top Rated Products"
+msgstr ""
+
+#: inc/td_scodes.php:609
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: inc/td_scodes.php:621 inc/td_slist.php:336
+msgid "Latest News"
+msgstr ""
+
+#: inc/td_scodes.php:659
+msgid "Comments"
+msgstr ""
+
+#: inc/td_scodes.php:670
+msgid "Sorry, no Post matched your criteria."
+msgstr ""
+
+#: inc/td_scodes.php:701 inc/td_slist.php:384 inc/td_slist.php:441
+msgid "Latest Works"
+msgstr ""
+
+#: inc/td_scodes.php:734 inc/td_scodes.php:872
+msgid "Live Preview"
+msgstr ""
+
+#: inc/td_scodes.php:736 inc/td_scodes.php:874
+msgid "More Details"
+msgstr ""
+
+#: inc/td_scodes.php:751 inc/td_scodes.php:896
+msgid "Sorry, no portfolio matched your criteria."
+msgstr ""
+
+#: inc/td_scodes.php:831
+msgid "All"
+msgstr ""
+
+#: inc/td_scodes.php:1033
+msgid "Web Development"
+msgstr ""
+
+#: inc/td_scodes.php:1039
+msgid "Read More"
+msgstr ""
+
+#: inc/td_slist.php:7
+msgid "Slider"
+msgstr ""
+
+#: inc/td_slist.php:11 inc/td_slist.php:60 inc/td_slist.php:116
+#: inc/td_slist.php:165 inc/td_slist.php:199 inc/td_slist.php:233
+#: inc/td_slist.php:281 inc/td_slist.php:329 inc/td_slist.php:377
+#: inc/td_slist.php:434 inc/td_slist.php:508 inc/td_slist.php:566
+#: inc/td_slist.php:653 inc/td_slist.php:720 inc/td_slist.php:747
+#: inc/td_slist.php:781 inc/td_slist.php:800 inc/td_slist.php:883
+msgid "ThemesDeveloper"
+msgstr ""
+
+#: inc/td_slist.php:16
+msgid "Type"
+msgstr ""
+
+#: inc/td_slist.php:18
+msgid "Nivoslider"
+msgstr ""
+
+#: inc/td_slist.php:18
+msgid "Flexslider"
+msgstr ""
+
+#: inc/td_slist.php:18
+msgid "OWL Slider"
+msgstr ""
+
+#: inc/td_slist.php:20
+msgid "Select Type of slider!"
+msgstr ""
+
+#: inc/td_slist.php:25
+msgid "Number Of Slider"
+msgstr ""
+
+#: inc/td_slist.php:28
+msgid "Display Number Of Slider!"
+msgstr ""
+
+#: inc/td_slist.php:33 inc/td_slist.php:137
+msgid "Category Slug"
+msgstr ""
+
+#: inc/td_slist.php:36
+msgid "Display Slider by Slug."
+msgstr ""
+
+#: inc/td_slist.php:41 inc/td_slist.php:97 inc/td_slist.php:145
+#: inc/td_slist.php:262 inc/td_slist.php:310 inc/td_slist.php:358
+#: inc/td_slist.php:414 inc/td_slist.php:489
+msgid "Order by"
+msgstr ""
+
+#: inc/td_slist.php:48 inc/td_slist.php:104 inc/td_slist.php:152
+#: inc/td_slist.php:269 inc/td_slist.php:317 inc/td_slist.php:365
+#: inc/td_slist.php:421 inc/td_slist.php:496
+msgid "Order"
+msgstr ""
+
+#: inc/td_slist.php:56
+msgid "Product Categories Carousel"
+msgstr ""
+
+#: inc/td_slist.php:65 inc/td_slist.php:170 inc/td_slist.php:204
+#: inc/td_slist.php:238 inc/td_slist.php:286 inc/td_slist.php:334
+#: inc/td_slist.php:382 inc/td_slist.php:439 inc/td_slist.php:521
+#: inc/td_slist.php:805
+msgid "Title"
+msgstr ""
+
+#: inc/td_slist.php:68 inc/td_slist.php:173 inc/td_slist.php:207
+#: inc/td_slist.php:241 inc/td_slist.php:289 inc/td_slist.php:337
+#: inc/td_slist.php:385 inc/td_slist.php:442
+msgid "Display Block Title."
+msgstr ""
+
+#: inc/td_slist.php:73
+msgid "Number of Category"
+msgstr ""
+
+#: inc/td_slist.php:76
+msgid "Number of Category Show in block."
+msgstr ""
+
+#: inc/td_slist.php:81 inc/td_slist.php:129 inc/td_slist.php:186
+#: inc/td_slist.php:220 inc/td_slist.php:254 inc/td_slist.php:302
+#: inc/td_slist.php:350 inc/td_slist.php:398 inc/td_slist.php:455
+msgid "Number of Column"
+msgstr ""
+
+#: inc/td_slist.php:84
+msgid "Number of category show in Column"
+msgstr ""
+
+#: inc/td_slist.php:89
+msgid "Category Parent ID"
+msgstr ""
+
+#: inc/td_slist.php:92
+msgid "Display Category List By Parent."
+msgstr ""
+
+#: inc/td_slist.php:112
+msgid "Products By Category Carousel"
+msgstr ""
+
+#: inc/td_slist.php:121 inc/td_slist.php:178 inc/td_slist.php:212
+#: inc/td_slist.php:246 inc/td_slist.php:294
+msgid "Number Of Products"
+msgstr ""
+
+#: inc/td_slist.php:124
+msgid "Number of Products Show by Category."
+msgstr ""
+
+#: inc/td_slist.php:132 inc/td_slist.php:189 inc/td_slist.php:223
+#: inc/td_slist.php:257 inc/td_slist.php:305
+msgid "Number of Products show in Column"
+msgstr ""
+
+#: inc/td_slist.php:140
+msgid "Add to Category Slug, which category products want to show."
+msgstr ""
+
+#: inc/td_slist.php:161
+msgid "Best Selling Products Carousel"
+msgstr ""
+
+#: inc/td_slist.php:181 inc/td_slist.php:215 inc/td_slist.php:249
+#: inc/td_slist.php:297
+msgid "Number of Products Show."
+msgstr ""
+
+#: inc/td_slist.php:195
+msgid "Recent Products Carousel"
+msgstr ""
+
+#: inc/td_slist.php:229
+msgid "Featured Products Carousel"
+msgstr ""
+
+#: inc/td_slist.php:277
+msgid "Top Rated Products Carousel"
+msgstr ""
+
+#: inc/td_slist.php:325
+msgid "Posts Carousel"
+msgstr ""
+
+#: inc/td_slist.php:342 inc/td_slist.php:390 inc/td_slist.php:447
+msgid "Number Of Posts"
+msgstr ""
+
+#: inc/td_slist.php:345 inc/td_slist.php:393 inc/td_slist.php:450
+msgid "Number of Posts Show."
+msgstr ""
+
+#: inc/td_slist.php:353
+msgid "Number of Posts show in Column"
+msgstr ""
+
+#: inc/td_slist.php:373
+msgid "Portfolio Carousel"
+msgstr ""
+
+#: inc/td_slist.php:401 inc/td_slist.php:458
+msgid "Number of Posts show in Column. Example: 1, 2, 3, 4"
+msgstr ""
+
+#: inc/td_slist.php:406 inc/td_slist.php:463
+msgid "Portfolio Categories"
+msgstr ""
+
+#: inc/td_slist.php:409 inc/td_slist.php:466
+msgid ""
+"Add Portfolio Categories, if you want to show your portfolios by categories."
+msgstr ""
+
+#: inc/td_slist.php:430
+msgid "Portfolio Grid"
+msgstr ""
+
+#: inc/td_slist.php:471
+msgid "Filter"
+msgstr ""
+
+#: inc/td_slist.php:473 tdcodes/themesdeveloper-config.php:1635
+#: tdcodes/themesdeveloper-config.php:1644
+#: tdcodes/themesdeveloper-config.php:1653
+#: tdcodes/themesdeveloper-config.php:1662
+#: tdcodes/themesdeveloper-config.php:1671
+#: tdcodes/themesdeveloper-config.php:1680
+#: tdcodes/themesdeveloper-config.php:1688
+#: tdcodes/themesdeveloper-config.php:1764
+#: tdcodes/themesdeveloper-config.php:1773
+#: tdcodes/themesdeveloper-config.php:1782
+#: tdcodes/themesdeveloper-config.php:1791
+#: tdcodes/themesdeveloper-config.php:1807
+#: tdcodes/themesdeveloper-config.php:1816
+#: tdcodes/themesdeveloper-config.php:1825
+#: tdcodes/themesdeveloper-config.php:1940
+msgid "Enable"
+msgstr ""
+
+#: inc/td_slist.php:473 tdcodes/themesdeveloper-config.php:1636
+#: tdcodes/themesdeveloper-config.php:1645
+#: tdcodes/themesdeveloper-config.php:1654
+#: tdcodes/themesdeveloper-config.php:1663
+#: tdcodes/themesdeveloper-config.php:1672
+#: tdcodes/themesdeveloper-config.php:1681
+#: tdcodes/themesdeveloper-config.php:1689
+#: tdcodes/themesdeveloper-config.php:1765
+#: tdcodes/themesdeveloper-config.php:1774
+#: tdcodes/themesdeveloper-config.php:1783
+#: tdcodes/themesdeveloper-config.php:1792
+#: tdcodes/themesdeveloper-config.php:1808
+#: tdcodes/themesdeveloper-config.php:1817
+#: tdcodes/themesdeveloper-config.php:1826
+#: tdcodes/themesdeveloper-config.php:1941
+msgid "Disable"
+msgstr ""
+
+#: inc/td_slist.php:475
+msgid "Filter Options in Portfolio Grid. "
+msgstr ""
+
+#: inc/td_slist.php:480
+msgid "Filter Position"
+msgstr ""
+
+#: inc/td_slist.php:482
+msgid "Center"
+msgstr ""
+
+#: inc/td_slist.php:482 tdcodes/themesdeveloper-config.php:1480
+#: tdcodes/themesdeveloper-config.php:1503
+#: tdcodes/themesdeveloper-config.php:1533
+#: tdcodes/themesdeveloper-config.php:1556
+msgid "Left"
+msgstr ""
+
+#: inc/td_slist.php:482 tdcodes/themesdeveloper-config.php:1481
+#: tdcodes/themesdeveloper-config.php:1504
+#: tdcodes/themesdeveloper-config.php:1534
+#: tdcodes/themesdeveloper-config.php:1557
+msgid "Right"
+msgstr ""
+
+#: inc/td_slist.php:484
+msgid "Grid Portfolio Filter Position"
+msgstr ""
+
+#: inc/td_slist.php:504
+msgid "Banner Grid"
+msgstr ""
+
+#: inc/td_slist.php:513
+msgid "Banner Image URL"
+msgstr ""
+
+#: inc/td_slist.php:516
+msgid "To Select banner image."
+msgstr ""
+
+#: inc/td_slist.php:524
+msgid "Display Banner Title."
+msgstr ""
+
+#: inc/td_slist.php:529 inc/td_slist.php:595 inc/td_slist.php:682
+#: inc/td_slist.php:733 inc/td_slist.php:768 inc/td_slist.php:869
+msgid "Link"
+msgstr ""
+
+#: inc/td_slist.php:532
+msgid "Banner Links here."
+msgstr ""
+
+#: inc/td_slist.php:537 inc/td_slist.php:611 inc/td_slist.php:614
+#: inc/td_slist.php:698 inc/td_slist.php:701 inc/td_slist.php:813
+#: inc/td_slist.php:821 inc/td_slist.php:824
+msgid "Column Class"
+msgstr ""
+
+#: inc/td_slist.php:540
+msgid "Number of Column Class"
+msgstr ""
+
+#: inc/td_slist.php:545 inc/td_slist.php:829
+msgid "Banner Style"
+msgstr ""
+
+#: inc/td_slist.php:548
+msgid "Banner Style Examples: style-01, style-02"
+msgstr ""
+
+#: inc/td_slist.php:553 inc/td_slist.php:853
+msgid "Button Text"
+msgstr ""
+
+#: inc/td_slist.php:556 inc/td_slist.php:856
+msgid "Text of button"
+msgstr ""
+
+#: inc/td_slist.php:562
+msgid "Team Members"
+msgstr ""
+
+#: inc/td_slist.php:571 inc/td_slist.php:658
+msgid "Avater"
+msgstr ""
+
+#: inc/td_slist.php:574
+msgid "To Select Team avater."
+msgstr ""
+
+#: inc/td_slist.php:579 inc/td_slist.php:666 inc/td_slist.php:896
+msgid "Name"
+msgstr ""
+
+#: inc/td_slist.php:582 inc/td_slist.php:669
+msgid "Member Name"
+msgstr ""
+
+#: inc/td_slist.php:587 inc/td_slist.php:674
+msgid "Role"
+msgstr ""
+
+#: inc/td_slist.php:590 inc/td_slist.php:677
+msgid "Member Role"
+msgstr ""
+
+#: inc/td_slist.php:598 inc/td_slist.php:685
+msgid "Member Links."
+msgstr ""
+
+#: inc/td_slist.php:603 inc/td_slist.php:690
+msgid "Biography"
+msgstr ""
+
+#: inc/td_slist.php:606 inc/td_slist.php:693
+msgid "Short Description of team member"
+msgstr ""
+
+#: inc/td_slist.php:619 inc/td_slist.php:622 inc/td_slist.php:706
+#: inc/td_slist.php:709
+msgid "Column ID"
+msgstr ""
+
+#: inc/td_slist.php:649
+msgid "Testimonial"
+msgstr ""
+
+#: inc/td_slist.php:661
+msgid "To Select Testimonials avater."
+msgstr ""
+
+#: inc/td_slist.php:716
+msgid "Social Icon"
+msgstr ""
+
+#: inc/td_slist.php:725 inc/td_slist.php:728
+msgid "Socail icon Class"
+msgstr ""
+
+#: inc/td_slist.php:736
+msgid "Social Link."
+msgstr ""
+
+#: inc/td_slist.php:743
+msgid "Button"
+msgstr ""
+
+#: inc/td_slist.php:752
+msgid "Style"
+msgstr ""
+
+#: inc/td_slist.php:755
+msgid "Button Style"
+msgstr ""
+
+#: inc/td_slist.php:760 inc/td_slist.php:786
+msgid "Class"
+msgstr ""
+
+#: inc/td_slist.php:763
+msgid "Button class."
+msgstr ""
+
+#: inc/td_slist.php:771
+msgid "Button Link."
+msgstr ""
+
+#: inc/td_slist.php:777
+msgid "Heading"
+msgstr ""
+
+#: inc/td_slist.php:789
+msgid "Heading Class"
+msgstr ""
+
+#: inc/td_slist.php:796
+msgid "Service"
+msgstr ""
+
+#: inc/td_slist.php:808
+msgid "Display Service Title."
+msgstr ""
+
+#: inc/td_slist.php:816
+msgid "Column Class here"
+msgstr ""
+
+#: inc/td_slist.php:832
+msgid "Banner Style Examples: style-01"
+msgstr ""
+
+#: inc/td_slist.php:837 inc/td_slist.php:840
+msgid "Icon"
+msgstr ""
+
+#: inc/td_slist.php:845
+msgid "Icon Color"
+msgstr ""
+
+#: inc/td_slist.php:848
+msgid "Service Icon colors"
+msgstr ""
+
+#: inc/td_slist.php:861
+msgid "Banner Class"
+msgstr ""
+
+#: inc/td_slist.php:864
+msgid "Text of button Class"
+msgstr ""
+
+#: inc/td_slist.php:872
+msgid "Service Button Links"
+msgstr ""
+
+#: inc/td_slist.php:879
+msgid "Brand Logo"
+msgstr ""
+
+#: inc/td_slist.php:888
+msgid "Brand Logo Images"
+msgstr ""
+
+#: inc/td_slist.php:891
+msgid "To Select Brand logo image."
+msgstr ""
+
+#: inc/td_slist.php:899
+msgid "Brand Logo Name"
+msgstr ""
+
+#: inc/td_slist.php:904
+msgid "link"
+msgstr ""
+
+#: inc/td_slist.php:907
+msgid "Brand Logo link"
+msgstr ""
+
+#: inc/td_widgets.php:6
+msgid "A widget that displays the Latest portfolios."
+msgstr ""
+
+#: inc/td_widgets.php:8
+msgid "Latest Portfolios"
+msgstr ""
+
+#: inc/td_widgets.php:59
+msgid "Latest Work"
+msgstr ""
+
+#: inc/td_widgets.php:67 inc/td_widgets.php:147
+msgid "Title:"
+msgstr ""
+
+#: inc/td_widgets.php:73
+msgid "Number Of Post Show:"
+msgstr ""
+
+#: inc/td_widgets.php:86
+msgid "A widget that displays the portfolios Tags."
+msgstr ""
+
+#: inc/td_widgets.php:88
+msgid "Portfolios Tags"
+msgstr ""
+
+#: inc/td_widgets.php:139
+msgid "Portfolio Tags"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:77 tdcodes/themesdeveloper-config.php:78
+msgid "Theme Options"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:178
+#: tdcodes/themesdeveloper-config.php:2092
+msgid "Documentation"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:184
+msgid "Support"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:190
+msgid "Extensions"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:245
+msgid "Theme Information 1"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:246
+#: tdcodes/themesdeveloper-config.php:251
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:250
+msgid "Theme Information 2"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:257
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:281
+msgid "General"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:283
+msgid "Theme General Setting can manage from here."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:290
+msgid "Layout Style"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:291
+msgid "Select theme Layout Style!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:293
+#: tdcodes/themesdeveloper-config.php:458
+msgid "Full width"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:294
+#: tdcodes/themesdeveloper-config.php:457
+msgid "Boxed"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:299
+msgid "Text Logo"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:300
+msgid "Disable it, if you want to upload your own logo!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:308
+msgid "Upload Your Logo"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:311
+msgid "The default size is 217x47 px."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:312
+msgid "Upload Your site Logo from here."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:323
+msgid "Logo Text"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:324
+msgid "Insert, your logo Text here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:330
+msgid "Description"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:331
+msgid "Tagline for your site should be displayed next to a logo."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:338
+msgid "Favicon Icon"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:341
+msgid "The default size is 16x16px px."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:342
+msgid "Upload your Favicon icon from here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:352
+msgid "Back To Top Button"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:353
+msgid "Enable it, if you want to use \"back to top\" button on your page!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:362
+#: tdcodes/themesdeveloper-config.php:718
+msgid "Header"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:365
+msgid "For manage Header layout style and custom HTML blocks!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:379
+msgid "Phone Number"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:380
+msgid "Insert Phone Number for header Top bar!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:387
+msgid "Insert Email for header Top bar!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:393
+#: tdcodes/themesdeveloper-config.php:430
+#: tdcodes/themesdeveloper-config.php:1562
+#: tdcodes/themesdeveloper-config.php:1983
+msgid "Custom HTML Blocks"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:394
+msgid "Insert Custom HTML for header Top bar Custom Block!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:423
+msgid "Header Custom HTML Block"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:424
+msgid ""
+"Enable it, if you want to use header Custom Feature options for Home Pages!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:431
+#: tdcodes/themesdeveloper-config.php:1984
+msgid ""
+"Use any of the features of WordPress editor inside your Bottom of Menu "
+"Section!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:454
+msgid "Main Menu Wrapper Style"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:455
+msgid "Select your themes Main Menu Wrapper Style."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:463
+msgid "Logo Top Padding"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:464
+msgid "Header Logo top Padding set."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:515
+msgid "Sidebar"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:518
+msgid "To manage Some page of side from here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:524
+msgid "Search Sidebar Position"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:526
+msgid "Set the Search sidebar position for Search pages!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:547
+msgid "Archive Sidebar Position"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:549
+msgid "Set the Archive sidebar position for Archive pages!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:570
+msgid "404 Sidebar Position"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:572
+msgid "Set the 404 sidebar position for 404 error page!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:593
+msgid "Image Attachments Page Sidebar Position"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:595
+msgid "Set the Image Attachments sidebar position for Image page!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:617
+msgid "Styling"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:619
+msgid "To manage Custom Theme Colors and Background options from here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:625
+msgid "Theme Skin"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:626
+#: tdcodes/themesdeveloper-config.php:1618
+msgid "Select your themes alternative color scheme."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:634
+msgid "Body Background"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:635
+msgid "Body background with image, color, etc."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:641
+msgid "General Links Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:642
+msgid "Pick a General Links color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:648
+msgid "General Links Hover Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:649
+msgid "Pick a General Links Hover color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:655
+msgid "Titles Text Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:656
+msgid "Pick a Titles Text color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:662
+msgid "Secondary Titles Text Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:663
+msgid "Pick a Secondary Titles Text color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:669
+msgid "Secondary Titles Border Bottom Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:670
+msgid "Pick a Secondary Titles Border Bottom color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:676
+msgid "Top Bar"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:677
+msgid ""
+"With the \"section\" field you can manage Header Top Bar background/colors "
+"Options."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:683
+msgid "Top Bar Background Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:684
+msgid "Pick a Top Bar Background color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:690
+msgid "Top Bar link Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:691
+msgid "Pick a Top Bar link color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:697
+msgid "Top Bar link Separator Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:698
+msgid "Pick a Top Bar link Separator color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:704
+msgid "Top Bar Sub Link Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:705
+msgid "Pick a Top Bar Sub Link color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:711
+msgid "Top Bar Sub Link Hover Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:712
+msgid "Pick a Top Bar Sub Link Hover color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:719
+msgid ""
+"With the \"section\" field you can manage Header background/colors Options."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:725
+msgid "Header Background Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:726
+msgid "Pick a Header Background color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:732
+msgid "Mini Cart Icon Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:733
+msgid "Pick a Mini Cart Icon color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:739
+msgid "Mini Cart Link Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:740
+msgid "Pick a Mini Cart Link color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:746
+msgid "Mini Cart Active Link Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:747
+msgid "Pick a Mini Cart Active Link color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:753
+msgid "Search Background Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:754
+msgid "Pick a Search Background Color color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:760
+msgid "Search Border Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:761
+msgid "Pick a Search Border color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:767
+msgid "Search Border Hover Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:768
+msgid "Pick a Search Border Hover color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:774
+msgid "Search Text Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:775
+msgid "Pick a Search Text color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:781
+msgid "Search Icon Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:782
+msgid "Pick a Search Icon color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:788
+msgid "Footer Part 1"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:789
+msgid ""
+"With the \"section\" field you can manage Footer Part 1 background/colors "
+"Options."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:795
+msgid "Footer Background Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:796
+msgid "Pick a Footer Background color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:803
+msgid "Footer Titles Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:804
+msgid "Pick a Footer Titles color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:811
+msgid "Footer Text Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:812
+msgid "Pick a Footer Text color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:819
+msgid "Footer Links Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:820
+msgid "Pick a Footer Links color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:827
+msgid "Footer Links Hover Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:828
+msgid "Pick a Footer Links Hover color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:835
+msgid "Footer Content Icon Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:836
+msgid "Pick a Footer Content Icon color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:843
+msgid "Footer Part 2"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:844
+msgid ""
+"With the \"section\" field you can manage Footer Part 2 background/colors "
+"Options."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:850
+msgid "Footer Second Background Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:851
+msgid "Pick a Footer Second Background color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:858
+msgid "Footer Second Text Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:859
+msgid "Pick a Footer Second Text color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:866
+msgid "Footer Second Links Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:867
+msgid "Pick a Footer Second Links color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:874
+msgid "Footer Second Links Hover Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:875
+msgid "Pick a Footer Second Links Hover color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:882
+msgid "Footer Second Separator Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:883
+msgid "Pick a Footer Second Separator color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:890
+msgid "Footer BacktoTop Background Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:891
+msgid "Pick a Footer BacktoTop Background color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:898
+msgid "General Buttons"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:899
+msgid ""
+"With the \"section\" field you can manage General Buttons background/colors "
+"Options."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:905
+msgid "Button Background Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:906
+msgid "Pick a Button Background color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:913
+msgid "Button Background Hover Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:914
+msgid "Pick a Button Background Hover color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:921
+msgid "Button Text Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:922
+msgid "Pick a Button Text color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:929
+msgid "Button Text Hover Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:930
+msgid "Pick a Button Text Hover color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:937
+msgid "Add to Cart Buttons"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:938
+msgid ""
+"With the \"section\" field you can manage Add to Cart Buttons background/"
+"colors Options."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:944
+msgid "Cart Button Background Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:945
+msgid "Pick a Cart Button Background color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:952
+msgid "Cart Button Background Hover Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:953
+msgid "Pick a Cart Button Background Hover color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:960
+msgid "Cart Button Text Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:961
+msgid "Pick a Cart Button Text color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:968
+msgid "Cart Button Text Hover Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:969
+msgid "Pick a Cart Button Text Hover color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:976
+msgid "Custom Block"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:977
+msgid ""
+"With the \"section\" field you can manage Custom Block background/colors "
+"Options."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:983
+msgid "Custom Block Background Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:984
+msgid "Pick a Custom Block Background color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:991
+msgid "Saving Percentage"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:992
+msgid ""
+"With the \"section\" field you can manage Saving Percentage background/"
+"colors Options."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:998
+msgid "Background Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:999
+msgid "Pick a background color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1006
+msgid "Text Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1007
+msgid "Pick a Text Color color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1014
+#: tdcodes/themesdeveloper-config.php:1021
+msgid "Price Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1015
+msgid ""
+"With the \"section\" field you can manage Price background/colors Options."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1022
+msgid "Pick a Price color for the theme (default: #3e7cb4)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1029
+msgid "Old Price Color"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1030
+msgid "Pick a Old Price color for the theme (default: #)."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1037
+msgid "Custom CSS"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1038
+msgid "Insert Custom CSS Codes here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1046
+msgid "Typography"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1049
+msgid "To manage Typography options for the theme from here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1058
+msgid "Body Font"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1059
+msgid "Specify the body font properties."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1076
+msgid "Title Font"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1077
+msgid "Specify the Title font properties."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1094
+msgid "Top Bar Font"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1095
+msgid "Specify the Top Bar font properties."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1112
+msgid "Secondary Titles Font"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1113
+msgid "Specify the Secondary Titles font properties."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1130
+msgid "Footer Titles Font"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1131
+msgid "Specify the Footer Titles font properties."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1144
+msgid "Social"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1146
+msgid "To manage Social options for the theme! "
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1152
+msgid "Facebook Links"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1153
+#: tdcodes/themesdeveloper-config.php:1237
+msgid "Add Your Social Facebook Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1159
+msgid "Twitter Links"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1160
+msgid "Add Your Social Twitter Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1166
+msgid "Google+"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1167
+msgid "Add Your Social Google+ Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1174
+msgid "Add Your Social Pinterest Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1180
+msgid "RSS"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1181
+msgid "Add Your Social RSS Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1187
+msgid "Blogger Links"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1188
+msgid "Add Your Social Blogger Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1194
+msgid "Myspace Links"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1195
+msgid "Add Your Social Myspace Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1201
+msgid "Linkedin"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1202
+msgid "Add Your Social Linkedin Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1208
+msgid "Evernote"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1209
+msgid "Add Your Social Evernote Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1215
+msgid "Dopplr"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1216
+msgid "Add Your Social Dopplr Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1222
+msgid "Ember"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1223
+msgid "Add Your Social Ember Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1229
+msgid "Flickr Links"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1230
+msgid "Add Your Social Flickr Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1236
+msgid "Picasa Web"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1243
+msgid "Youtube"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1244
+msgid "Add Your Social Youtube Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1250
+msgid "Technorati"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1251
+msgid "Add Your Social Technorati Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1257
+msgid "Grooveshark Links"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1258
+msgid "Add Your Social Grooveshark Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1264
+msgid "Vimeo Links"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1265
+msgid "Add Your Social Vimeo Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1271
+msgid "Sharethis"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1272
+msgid "Add Your Social Sharethis Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1278
+msgid "Yahoobuzz"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1279
+msgid "Add Your Social Yahoobuzz Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1285
+msgid "Viddler"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1286
+msgid "Add Your Social Viddler Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1292
+msgid "Skype"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1293
+msgid "Add Your Social Skype Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1299
+msgid "Google Talk"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1300
+msgid "Add Your Social Google Talk Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1307
+msgid "Add Your Social Digg Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1314
+msgid "Add Your Social Reddit Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1320
+msgid "Delicious"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1321
+msgid "Add Your Social Delicious Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1327
+msgid "Stumbleupon"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1328
+msgid "Add Your Social Stumbleupon Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1334
+msgid "Friendfeed Links"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1335
+msgid "Add Your Social Friendfeed Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1342
+msgid "Add Your Social Tumblr Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1348
+msgid "Yelp"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1349
+msgid "Add Your Social Yelp Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1355
+msgid "Posterous"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1356
+msgid "Add Your Social Posterous Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1363
+msgid "Bebo"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1364
+msgid "Add Your Social Bebo Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1370
+msgid "Virb"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1371
+msgid "Add Your Social Virb Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1377
+msgid "Last FM"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1378
+msgid "Add Your Social Last FM Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1384
+msgid "Pandora"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1385
+msgid "Add Your Social Pandora Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1391
+msgid "Mixx"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1392
+msgid "Add Your Social Mixx Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1398
+msgid "Newsvine"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1399
+msgid "Add Your Social Newsvine Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1405
+msgid "Openid"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1406
+msgid "Add Your Social Openid Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1412
+msgid "Readernaut"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1413
+msgid "Add Your Social Readernaut Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1419
+msgid "Xing Me"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1420
+msgid "Add Your Social Xing Me Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1426
+msgid "Instagram"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1427
+msgid "Add Your Social Instagram Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1433
+msgid "Spotify"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1434
+msgid "Add Your Social Spotify Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1440
+msgid "Forrst"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1441
+msgid "Add Your Social Forrst Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1447
+msgid "Viadeo"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1448
+msgid "Add Your Social Viadeo Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1454
+msgid "VK Com"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1455
+msgid "Add Your Social VK Com Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1462
+msgid "Custom Side Block"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1464
+msgid "To manage Custom Side Block for the theme!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1470
+msgid "Facebook Likebox Show"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1471
+msgid "Enable it, if you want to use Facebook Likebox in theme side block!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1477
+msgid "Facebook Side Block Position"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1478
+msgid "Select Facebook Side Block Position for the theme!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1486
+msgid "Facebook Page URL"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1487
+msgid "Facebook Page URL, like https://www.facebook.com/themesdeveloper"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1493
+msgid "Twitter Block Show"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1494
+msgid "Enable it, if you want to use Twitter Block in theme Side Block!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1500
+msgid "Twitter Side Block Position"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1501
+msgid "Select Twitter Side Block Position for the theme!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1509
+msgid "Twitter UserName"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1510
+msgid "Insert your twitter UserName Here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1516
+msgid "Twitter Widget ID"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1517
+msgid ""
+"<a class=\"link\" target=\"_blank\" href=\"http://demo.harnishdesign.net/"
+"opencart/thebigshop/twitter-widget-id.jpg\">Find your Widget ID >></a>"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1523
+msgid "Video Block Show"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1524
+msgid "Enable it, if you want to use Video Block in theme side block!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1530
+msgid "Video Side Block Position"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1531
+msgid "Select Video Side Block Position for the theme!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1539
+msgid "Youtube Video ID "
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1540
+msgid "Insert Youtube Video ID here for the theme!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1546
+msgid "Custom HTML Blocks Show"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1547
+msgid "Enable it, if you want to use Custom HTML Blocks in theme side block!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1553
+msgid "Custom HTML Side Block Position"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1554
+msgid "Select Custom HTML Side Block Position for the theme!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1563
+msgid "Use any of the HTML features here for the theme custom side block!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1586
+msgid "Blog"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1588
+msgid "To manage Blog Options for the theme!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1594
+msgid "Blog Sidebar Position"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1596
+msgid "Set the Blog sidebar position for blog pages."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1617
+msgid "Blog Layout"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1625
+msgid "Single Post Page"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1626
+msgid "With the \"section\" field you can manage Single Post Page!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1632
+#: tdcodes/themesdeveloper-config.php:1822
+#: tdcodes/themesdeveloper-config.php:1937
+msgid "Social Icons"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1633
+msgid ""
+"Enable it, if you want to show Social Sharing Icons Block in single blog "
+"page!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1641
+msgid "Next/Previous Pagination"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1642
+msgid ""
+"Enable it, if you want to show Next/Previous Pagination in single Post page!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1650
+msgid "Author Info Block"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1651
+msgid "Enable it, if you want to show Author Info Block in single Post page!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1659
+msgid "Comments Block"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1660
+msgid "Enable it, if you want to show Comments Block in single Post page!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1668
+msgid "Post Meta Info"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1669
+msgid "Enable it, if you want to show Post Meta Info in single Post page!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1677
+msgid "Post Meta Date Info"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1678
+msgid "Enable it, if you want to show Post Meta Date Info in single Post page!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1685
+msgid "Post By Author Info"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1686
+msgid "Enable it, if you want to show Post By Author Info in single Post page!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1695
+msgid "Portfolio"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1697
+msgid "To manage Portfolio Options for the theme!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1703
+msgid "Portfolio Sidebar Position"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1705
+msgid "Set the Portfolio sidebar position for the Portfolio pages!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1726
+msgid "Portfolio Show Per Column"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1728
+msgid "Set the Portfolio Show Per Column for the Portfolio pages!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1754
+msgid "Portfolio pages show at most"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1755
+msgid "Show number of portfolio in pages."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1761
+msgid "Portfolio Filter Categories"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1762
+msgid ""
+"Enable it, if you want to show Portfolio Filter Categories in the Portfolio "
+"page!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1770
+msgid "Portfolio Items Title"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1771
+msgid ""
+"Enable it, if you want to show Portfolio Items Title in the Portfolio page!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1779
+msgid "Portfolio Items Tag"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1780
+msgid ""
+"Enable it, if you want to show Portfolio Items Tag in the Portfolio page!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1788
+msgid "Portfolio Items Excerpt"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1789
+msgid ""
+"Enable it, if you want to show Portfolio Items Excerpt in the Portfolio page!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1797
+msgid "Single Pages"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1798
+msgid ""
+"With the \"section\" field you can manage Single Portfolio Page sections!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1804
+msgid "Portfolio Comments"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1805
+msgid ""
+"Enable it, if you want to show Portfolio Comments in the Portfolio single "
+"page!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1813
+msgid "Portfolio Author"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1814
+msgid ""
+"Enable it, if you want to show Portfolio Author info in the Portfolio single "
+"page!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1823
+msgid ""
+"Enable it, if you want to show Social Icons info in the Portfolio single "
+"page!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1832
+msgid "WooCommerce"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1834
+msgid ""
+"To manage WooCommerce Archive/Category and Single Product pages Options for "
+"the theme!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1840
+msgid "Archive/Category Sidebar Position"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1842
+msgid "Set the Archive/Category sidebar position for the theme!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1863
+msgid "Single Product Page Sidebar Position"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1865
+msgid "Set the Single Product Page sidebar position for the theme!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1886
+#: tdcodes/themesdeveloper-config.php:1922
+msgid "Number Of Products Per Row"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1887
+msgid "Archive/Category Pages."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1888
+msgid "Selete number of product per column for Archive/Category Pages!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1901
+msgid "Zoom Style"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1902
+msgid "Single Product page zoom style"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1903
+msgid "Selete image zoom style of single products Pages!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1906
+msgid "Default WooCommerce Style"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1907
+msgid "TheBigshop ( Magnific Popup )"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1908
+msgid "TheBigshop ( Zoom with Popup ) "
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1915
+msgid "Products Per Page"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1916
+msgid "Products Per Page for Archive/Category Pages"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1923
+msgid "Releted/Cross-sells/Upsells Products."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1924
+msgid ""
+"Selete number of product per column for Releted/Cross-sells/Upsells Products!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1938
+msgid ""
+"Enable it, if you want to show Social Icons in the Products single page!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1967
+msgid "Footer"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1970
+msgid "To manage Footer section for the theme!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1976
+msgid "Footer Custom HTML Block"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:1977
+msgid ""
+"Enable it, if you want to use footer Custom Feature options for Home Pages!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:2007
+msgid "Footer Contact Info Block"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:2008
+msgid ""
+"Enable it, if you want to show Footer Contact Info Block in the theme Pages "
+"Footer section!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:2014
+msgid "Footer Contact Info"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:2015
+msgid "Insert, Footer Contact details Info!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:2029
+msgid "Copyright Info "
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:2030
+msgid "Insert, Footer Copyright Info for the theme!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:2036
+#: tdcodes/themesdeveloper-config.php:2043
+msgid "Custom HTML Text Blocks"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:2037
+msgid ""
+"Enable it, if you want to use footer Custom HTML Text Blocks on theme footer!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:2044
+msgid "Insert, Footer Custom HTML Text Blocks for the theme!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:2051
+msgid "Upload Your Payment Logo"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:2054
+msgid "The default size is 327x30 px."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:2055
+msgid "Upload your payment Method logo for theme footer section."
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:2065
+msgid "Payment Logo Links"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:2066
+msgid "Add Your Payment Logo Links here!"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:2072
+msgid "Number of Column Content Bottom Widgets Section"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:2073
+msgid "Number of Column Pages Content Bottom Widgets Section"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:2207
+msgid "Section via hook"
+msgstr ""
+
+#: tdcodes/themesdeveloper-config.php:2208
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: themesdeveloper-thebigshop.php:155
+msgid "Best if used on new WordPress install."
+msgstr ""
+
+#: themesdeveloper-thebigshop.php:156
+msgid "Images are for demo purpose only."
+msgstr ""
