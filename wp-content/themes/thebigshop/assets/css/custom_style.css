@@ -1,0 +1,33 @@
+#header .header-row {
+    background-color: #ffffff;
+    padding: 5px 0;
+}
+#header .button-search {
+    color: #ffffff;
+    background-color: #0d977f;
+}
+#header .links_contact>ul>li, #header .links_contact>ul>li>a {
+    color: #0d977f;
+}
+
+#header #search input
+{
+    background: #fff;
+    color: #333;
+    border-color: #0d977f;
+}
+
+#header #search input:focus {
+    border-color: #0d977f;
+}
+
+
+#header #top-links>ul>li:hover>a, #header .links>ul>li:hover>a, #header .links_contact>ul>li>a:hover {
+    text-decoration: none;opacity: 0.7;
+}
+
+
+#header .links_contact>ul>li .fa-phone,#header .links_contact>ul>li .fa-fax {
+    font-size: 120%;
+    margin-right: 5px;
+}
