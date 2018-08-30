@@ -391,6 +391,8 @@ function td_featured_products_block($atts, $content = "") {
     <div class="woocommerce owl-carousel" id="featured_slider">
 
         <?php
+        //customize the function BEIGINING
+        /*
         $args = array(
             'post_type' => 'product',
             'post_status' => 'publish',
@@ -408,6 +410,27 @@ function td_featured_products_block($atts, $content = "") {
                 )
             )
         );
+        */
+
+        $tax_query   = WC()->query->get_tax_query();
+        $tax_query[] = array(
+            'taxonomy' => 'product_visibility',
+            'field'    => 'name',
+            'terms'    => 'featured',
+            'operator' => 'IN',
+        );
+         $args = array(
+            'post_type' => 'product',
+            'post_status' => 'publish',
+            'ignore_sticky_posts' => 1,
+            'posts_per_page' => $per_page,
+            'orderby' => $orderby,
+            'order' => $order,
+            'tax_query' => $tax_query
+        );
+
+         //customize the function - END
+
 
         $featured_products = new WP_Query($args);
         if ($featured_products->have_posts()) :
