@@ -31,3 +31,11 @@
     font-size: 120%;
     margin-right: 5px;
 }
+
+.woocommerce ul.products li.product a img {
+    width: 78%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    box-shadow: none;
+}

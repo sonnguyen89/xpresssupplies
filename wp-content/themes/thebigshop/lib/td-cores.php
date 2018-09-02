@@ -26,7 +26,7 @@ if (!function_exists('thebigshop_theme_setup')) :
         load_child_theme_textdomain('thebigshop', get_template_directory() . '/languages');
 
 
-        add_image_size('thebigshop_homedefault', 200, 200, true);
+        add_image_size('thebigshop_homedefault', 280, 280, true);
         add_image_size('thebigshop_featured_image', 340, 200, true);
         add_image_size('thebigshop_featured_image_full', 848, 450, array( 'left', 'top' ));
         add_image_size('thebigshop_post_slider', 400, 200, true);
