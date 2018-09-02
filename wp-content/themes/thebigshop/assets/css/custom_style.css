@@ -16,7 +16,17 @@
     color: #333;
     border-color: #0d977f;
 }
-
+#header .header-row .inner
+{
+    text-align: right;
+}
+@media all and (max-width: 991px)
+{
+    #header .htop, .left-top
+    {
+        display:none;
+    }
+}
 #header #search input:focus {
     border-color: #0d977f;
 }
@@ -38,4 +48,18 @@
     display: block;
     margin: 0 auto;
     box-shadow: none;
+}
+#form-currency:hover span, #form-language:hover .btn-link span, #header #top-links>ul>li:hover>a, #header .links>ul>li:hover>a {
+    color: #0d977f;
+}
+#header .links > ul > li.mobile, #header .links > ul > li > a, #language span, #currency span, #header #top-links > ul > li > a, .drop-icon {
+    color: #006eb7;
+    text-transform: uppercase;
+}
+
+
+#menu {
+    background-color: #444;
+    border: none;
+    border-radius: 0;
 }

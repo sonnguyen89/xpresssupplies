@@ -52,11 +52,11 @@ border-top-color:' . esc_attr($thebigshop_options['td_top_bar_link_color']) . ';
 
         if (isset($thebigshop_options['td_top_bar_link_separator_color']) && ($thebigshop_options['td_top_bar_link_separator_color'] != ''))
             $custom_styles .='#header .links > ul > li, #header #top-links > ul > li {
-border-left:1px dotted ' . esc_attr($thebigshop_options['td_top_bar_link_separator_color']) . '; }';
+border-left:1px solid ' . esc_attr($thebigshop_options['td_top_bar_link_separator_color']) . '; }';
 
         if (isset($thebigshop_options['td_top_bar_link_separator_color']) && ($thebigshop_options['td_top_bar_link_separator_color'] != ''))
             $custom_styles .='#header .links, #language, #currency, #header #top-links {
-border-right:1px dotted ' . esc_attr($thebigshop_options['td_top_bar_link_separator_color']) . '; }';
+border-right:1px solid ' . esc_attr($thebigshop_options['td_top_bar_link_separator_color']) . '; }';
 
         if (isset($thebigshop_options['td_top_bar_sub_link_color']) && ($thebigshop_options['td_top_bar_sub_link_color'] != ''))
             $custom_styles .='#top .dropdown-menu li a, #currency ul li .currency-select {
