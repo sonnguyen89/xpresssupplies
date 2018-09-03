@@ -43,7 +43,7 @@
 }
 
 .woocommerce ul.products li.product a img {
-    width: 78%;
+    width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;

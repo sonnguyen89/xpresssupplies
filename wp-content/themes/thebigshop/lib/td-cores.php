@@ -26,14 +26,16 @@ if (!function_exists('thebigshop_theme_setup')) :
         load_child_theme_textdomain('thebigshop', get_template_directory() . '/languages');
 
 
-        add_image_size('thebigshop_homedefault', 280, 280, true);
-        add_image_size('thebigshop_featured_image', 340, 200, true);
-        add_image_size('thebigshop_featured_image_full', 848, 450, array( 'left', 'top' ));
+        add_image_size('thebigshop_homedefault', 300, 300, true);
+        add_image_size('thebigshop_featured_image', 340, 340, true);
+        add_image_size('thebigshop_featured_image_full', 648, 648, array( 'left', 'top' ));
+        /*
         add_image_size('thebigshop_post_slider', 400, 200, true);
         add_image_size('thebigshop_portfolio_grid', 590, 300, true);
         add_image_size('thebigshop_homecatslider', 208, 185, true);
+        */
         add_image_size('thebigshop_categories_thumb', 848, 301, true);
-        add_image_size('thebigshop_quickview_images', 438, 657, true);
+        add_image_size('thebigshop_quickview_images', 438, 438, true);
 
         register_nav_menus(array(
             'primary' => esc_html__('Primary Menu', 'thebigshop'),
