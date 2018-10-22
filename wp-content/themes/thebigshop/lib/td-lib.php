@@ -104,7 +104,7 @@ function thebigshop_register_widgets_init() {
         'name' => esc_html__('Footer Block', 'thebigshop'),
         'id' => 'footer',
         'description' => esc_html__('Add widgets here to appear in your footer.', 'thebigshop'),
-        'before_widget' => '<div id="%1$s" class="widget %2$s column col-lg-2 col-md-2 col-sm-3 col-xs-12">',
+        'before_widget' => '<div id="%1$s" class="widget %2$s column col-lg-3 col-md-3 col-sm-3 col-xs-12">',
         'after_widget' => '</div>',
         'before_title' => '<h5 class="widget-title">',
         'after_title' => '</h5>',
